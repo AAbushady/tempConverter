@@ -1,11 +1,11 @@
 (function () {
     'use strict';
 
-    var celsius = 32.0;
-    const MULTIPLICATOR = 1.8;
-    const ADDITIVE = 32;
+    let celsius = 32.0;
+    const MULTIPLIER = 1.8;
+    const ADDEND = 32;
 
-    var fahrenheit = (celsius * MULTIPLICATOR) + ADDITIVE;
+    let fahrenheit = (celsius * MULTIPLIER) + ADDEND;
 
     console.log(`Celsius: ${celsius} Fahrenheit: ${fahrenheit}`);
 })();
