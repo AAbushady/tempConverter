@@ -1,5 +1,5 @@
 (function () {
-    'use strict';
+    'using strict';
 
     let celsius = 32.0;
     const MULTIPLIER = 1.8;
